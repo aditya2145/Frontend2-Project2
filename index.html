@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form>
+            <div class="email-input">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Example@email.com" />
+                <span id="emailError" >Make sure email is more than 3 characters and has @ and a .</span>
+            </div>
+            <div class="password-input">
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Your Password" />
+                <span id="passwordError" >Make sure password is more than 8 characters.</span>
+            </div>
+            <span id="overallSuccess">All good to go!</span>
+            <div class="submit-btn-box">
+                <button id="submit-btn">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
